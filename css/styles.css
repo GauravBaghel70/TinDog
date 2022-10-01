@@ -1,0 +1,190 @@
+/* Import fonts from google  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* Body */
+body {
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+
+
+/* Container Padding */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/*  Heading  */
+.heading {
+    font-size: 3.5rem;
+}
+
+
+/* Layout color and font color */
+.color-layout {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.color-2-layout {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.plane-layout {
+    background-color: #fff;
+    color: black;
+}
+
+
+/*  Title  */
+#title .container-fluid {
+    padding-top: 2%;
+}
+
+
+/* Font weight and Line Height */
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* navigation-bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+a.nav-link {
+    color: #FFA0A7 !important;
+}
+
+a.nav-link:hover {
+    color: rgb(253, 216, 216) !important;
+}
+
+.navbar-link {
+    font-size: 1.2rem;
+    align-items: flex-end;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.btn1 {
+    margin: 5% 3% 5% 0;
+}
+
+.apple {
+    width: 20px;
+    margin-right: 10px;
+    padding-bottom: 05px;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* features */
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.ion {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.ion:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+.testimonial-text {
+    font-size: 3rem;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press */
+#press {
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-t {
+    padding: 4% 2%;
+}
+
+
+/*  call to action */
+.ctab {
+    padding: 5%;
+}
+
+.cta-action {
+    font-size: 3rem;
+}
+
+.ctabt {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* footer  */
+.tw {
+    padding: 1%;
+}
+
+.made {
+    font-size: 10px;
+}
+
+
+/* Mobile version */
+@media (max-width:1028px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .feat-1 {
+        padding: 3%;
+    }
+}
